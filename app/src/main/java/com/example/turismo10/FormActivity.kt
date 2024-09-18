@@ -52,8 +52,8 @@ class FormActivity : AppCompatActivity() {
 
             val selectedChipId = gpoHoteles.checkedChipId
             hotel = when (selectedChipId) {
-                R.id.chHotel1 -> "Hotel Rui Caribe"
-                R.id.chHotel2 -> "Hotel Fiesta Inn"
+                R.id.chHotel1 -> "Hotel Fiesta Inn"
+                R.id.chHotel2 -> "Hotel Rui Caribe"
                 else -> "No seleccionado"
             }
         }
